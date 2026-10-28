@@ -1,0 +1,72 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.messaoud.bonpeint"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <permission
+11-->[androidx.core:core:1.12.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/0d4ffc60e85a7c7f9fbeb27599893adc/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+12        android:name="com.messaoud.bonpeint.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.12.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/0d4ffc60e85a7c7f9fbeb27599893adc/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.12.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/0d4ffc60e85a7c7f9fbeb27599893adc/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.messaoud.bonpeint.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.12.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/0d4ffc60e85a7c7f9fbeb27599893adc/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.12.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/0d4ffc60e85a7c7f9fbeb27599893adc/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->/data/data/com.termux/files/home/BonPeint/app/src/main/AndroidManifest.xml:5:5-30:19
+18        android:allowBackup="true"
+18-->/data/data/com.termux/files/home/BonPeint/app/src/main/AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.12.0] /data/data/com.termux/files/home/.gradle/caches/transforms-3/0d4ffc60e85a7c7f9fbeb27599893adc/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+20        android:debuggable="true"
+21        android:extractNativeLibs="true"
+22        android:label="BonPeint"
+22-->/data/data/com.termux/files/home/BonPeint/app/src/main/AndroidManifest.xml:7:9-33
+23        android:supportsRtl="true"
+23-->/data/data/com.termux/files/home/BonPeint/app/src/main/AndroidManifest.xml:8:9-35
+24        android:theme="@android:style/Theme.DeviceDefault.Light" >
+24-->/data/data/com.termux/files/home/BonPeint/app/src/main/AndroidManifest.xml:9:9-65
+25        <activity
+25-->/data/data/com.termux/files/home/BonPeint/app/src/main/AndroidManifest.xml:11:9-18:20
+26            android:name="com.messaoud.bonpeint.MainActivity"
+26-->/data/data/com.termux/files/home/BonPeint/app/src/main/AndroidManifest.xml:12:13-41
+27            android:exported="true" >
+27-->/data/data/com.termux/files/home/BonPeint/app/src/main/AndroidManifest.xml:13:13-36
+28            <intent-filter>
+28-->/data/data/com.termux/files/home/BonPeint/app/src/main/AndroidManifest.xml:14:13-17:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->/data/data/com.termux/files/home/BonPeint/app/src/main/AndroidManifest.xml:15:17-69
+29-->/data/data/com.termux/files/home/BonPeint/app/src/main/AndroidManifest.xml:15:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->/data/data/com.termux/files/home/BonPeint/app/src/main/AndroidManifest.xml:16:17-77
+31-->/data/data/com.termux/files/home/BonPeint/app/src/main/AndroidManifest.xml:16:27-74
+32            </intent-filter>
+33        </activity>
+34
+35        <provider
+36            android:name="androidx.core.content.FileProvider"
+36-->/data/data/com.termux/files/home/BonPeint/app/src/main/AndroidManifest.xml:21:13-62
+37            android:authorities="com.messaoud.bonpeint.provider"
+37-->/data/data/com.termux/files/home/BonPeint/app/src/main/AndroidManifest.xml:22:13-60
+38            android:exported="false"
+38-->/data/data/com.termux/files/home/BonPeint/app/src/main/AndroidManifest.xml:23:13-37
+39            android:grantUriPermissions="true" >
+39-->/data/data/com.termux/files/home/BonPeint/app/src/main/AndroidManifest.xml:24:13-47
+40            <meta-data
+40-->/data/data/com.termux/files/home/BonPeint/app/src/main/AndroidManifest.xml:25:13-27:54
+41                android:name="android.support.FILE_PROVIDER_PATHS"
+41-->/data/data/com.termux/files/home/BonPeint/app/src/main/AndroidManifest.xml:26:17-67
+42                android:resource="@xml/file_paths" />
+42-->/data/data/com.termux/files/home/BonPeint/app/src/main/AndroidManifest.xml:27:17-51
+43        </provider>
+44    </application>
+45
+46</manifest>

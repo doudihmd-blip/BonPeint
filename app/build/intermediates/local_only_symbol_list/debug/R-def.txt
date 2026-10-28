@@ -1,0 +1,12 @@
+R_DEF: Internal format may change without notice
+local
+id btnAdd
+id btnGenerate
+id btnLang
+id editClient
+id editItemName
+id editItemQty
+id editProject
+id spinnerDocType
+layout activity_main
+xml file_paths

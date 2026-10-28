@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.messaoud.bonpeint.app-merged_res-8:/xml_file_paths.xml.flat",
+        "source": "com.messaoud.bonpeint.app-main-10:/xml/file_paths.xml"
+    },
+    {
+        "merged": "com.messaoud.bonpeint.app-merged_res-8:/layout_activity_main.xml.flat",
+        "source": "com.messaoud.bonpeint.app-main-10:/layout/activity_main.xml"
+    }
+]
